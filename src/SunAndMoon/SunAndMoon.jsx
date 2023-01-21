@@ -18,7 +18,7 @@ const SunAndMoon = () => {
         imgSrcUpdate(sunSrc);
     };
 
-    // HTML
+    // HTML: Mark Up
     return (
         <SunAndMoonStyled>
             <h2>Sun And Moon</h2>

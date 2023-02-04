@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 /* Components ---------------------------*/
-import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import Inset from '../Inset.jsx';
+import SiteLogo from '../SiteLogo/SiteLogo.jsx';
 
-const Header = () => {
+const MediumLarge = () => {
     return (
-        <HeaderStyled className="Header">
+        <MediumLargeStyled className="MediumLarge">
             <Inset>
                 <div className="inset">
                     <div className="logo">
@@ -25,13 +25,13 @@ const Header = () => {
                     </div>
                 </div>
             </Inset>
-        </HeaderStyled>
+        </MediumLargeStyled>
     );
 };
 
-export default Header;
+export default MediumLarge;
 
-const HeaderStyled = styled.header`
+const MediumLargeStyled = styled.div`
     color: white;
 
     .logo {

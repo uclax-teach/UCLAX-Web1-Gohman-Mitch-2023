@@ -9,7 +9,6 @@ const Home = () => {
     return (
         <HomeStyled className='Home'>
             <h1>Home</h1>
-            <h2>Changes: 2023.03.17-10.18.48</h2>
             <Slideshow />
             <Inset>
                 <Tabbed />
